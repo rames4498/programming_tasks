@@ -39,11 +39,11 @@ z= fn(tuple(list1),tuple(list2))
 
 print(z, type(z))﻿
 ```
-a. {1:5, 2:6, 3:7, 4:8, 5:9} <class 'dict'>
-b. {1, 2, 3, 4, 5, 6, 7, 8, 9} <class 'set'>
-c. {[1, 2, 3, 4, 5], [5,6,7,8,9]} <class 'dict'>
-d. {(1, 2, 3, 4, 5), (5, 6, 7, 8, 9)} <class 'set'>
-e. Error
+- a. {1:5, 2:6, 3:7, 4:8, 5:9} <class 'dict'>
+- b. {1, 2, 3, 4, 5, 6, 7, 8, 9} <class 'set'>
+- c. {[1, 2, 3, 4, 5], [5,6,7,8,9]} <class 'dict'>
+- d. {(1, 2, 3, 4, 5), (5, 6, 7, 8, 9)} <class 'set'>
+- e. Error
 
 4. What will be the output of the following Python code? Explain.
 ```python
@@ -58,10 +58,10 @@ def add(a, b):
 answer = (product if True else add)(2, 3)
 print(answer)﻿
 ```
-a. 5
-b. 6
-c. 11
-d. Error
+- a. 5
+- b. 6
+- c. 11
+- d. Error
 
 5.
 ```python
