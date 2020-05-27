@@ -69,7 +69,8 @@ d = {True: "guvi", 1: "Good night"}
 
 print(d)
  ```
- ## Javascript codekata problem solving
+
+ 
  
 
 
