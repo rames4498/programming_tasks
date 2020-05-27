@@ -16,7 +16,7 @@ print(c)﻿
 - d. [(1, 1), (1, 4), (2, 1), (2, 2)]
 - e. Error
 
-2. What will be the output of the following Python code? Explain.
+**2. What will be the output of the following Python code? Explain.**
 ```python
 a = [1,2,3,4,5,6,7,8,9,10]
 print(a[-1:-5])﻿
@@ -27,7 +27,7 @@ print(a[-1:-5])﻿
 - d. []
 - e. Error
 
-3. What will be the output of the following Python Code? Explain.
+**3. What will be the output of the following Python Code? Explain.**
 ```python
 def fn(data1, data2):
     return {data1, data2}
@@ -45,7 +45,7 @@ print(z, type(z))﻿
 - d. {(1, 2, 3, 4, 5), (5, 6, 7, 8, 9)} <class 'set'>
 - e. Error
 
-4. What will be the output of the following Python code? Explain.
+**4. What will be the output of the following Python code? Explain.**
 ```python
 def product(a, b):
     return a * b
@@ -63,7 +63,7 @@ print(answer)﻿
 - c. 11
 - d. Error
 
-5.
+**5.**
 ```python
 d = {True: "guvi", 1: "Good night"}
 
