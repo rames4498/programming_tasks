@@ -1,4 +1,5 @@
 # programming_tasks
+
 Tasks for students
 1.)What will be the output of the following Python code? Explain.
 
@@ -16,10 +17,10 @@ d.) [(1, 1), (1, 4), (2, 1), (2, 2)]
 e.) Error
 
 2.)What will be the output of the following Python code? Explain.
-
+```python
 a = [1,2,3,4,5,6,7,8,9,10]
 print(a[-1:-5])﻿
-
+```
 a.) [2,3,4,5]
 b.) [5,4,3,2]
 c.) [10,9,8,7]
