@@ -67,7 +67,9 @@ print(answer)﻿
 ```python
 d = {True: "guvi", 1: "Good night"}
 
- print(d)
+print(d)
  ```
+ ## Javascript codekata problem solving
+ 
 
 
