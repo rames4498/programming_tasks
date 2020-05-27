@@ -63,11 +63,11 @@ print(answer)﻿
 - c. 11
 - d. Error
 
-**5.**
+**5. What will be the output and why it is so ?**
 ```python
 d = {True: "guvi", 1: "Good night"}
 
  print(d)
  ```
 
-What will be the output and why it is so ?
+
