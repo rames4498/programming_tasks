@@ -1,8 +1,8 @@
 # programming_tasks
 
-**Tasks for students**
+## Tasks for students
 
-1. What will be the output of the following Python code? Explain.
+**1. What will be the output of the following Python code? Explain.**
 ```python
 a = [1,2]
 b = [1,2]
