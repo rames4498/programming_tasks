@@ -364,7 +364,52 @@ Instead of getting undefined (like with those variables declared with var), you�
   1. block scoped
   2. ReferenceError when accessing a variable before it's declared
   
- 
+ **Q12:**
+**What is the difference between var and let ?**
+
+*const* is almost exactly the same as let. However, the only difference is that once you’ve assigned a value to a variable using const, you can’t reassign it to a new value.
+
+```javascript
+let name = 'Sherlock'
+const handle = 'nothing'
+
+name = 'Sherlock Holmes' // ✅
+handle = 'something' // ❌ TypeError: Assignment to constant variable.
+```
+changing a property on an object isn’t reassigning it, so even though an object is declared with const, that doesn’t mean you can’t mutate any of its properties.
+
+It only means you can’t reassign it to a new value.
+
+```javascript
+const person = {
+  name: 'Guvi'
+}
+
+person.name = 'Guvi Geeks' // ✅
+
+person = {} // ❌ Assignment to constant variable.
+```
+**Q13:**
+**What is the difference between var,let and const ?**
+
+*var VS let VS const*
+
+- var: 
+  1. function scoped
+  2. undefined when accessing a variable before it's declared
+
+- let: 
+  1. block scoped
+  2. ReferenceError when accessing a variable before it's declared
+
+- const:
+  1. block scoped
+  2. ReferenceError when accessing a variable before it's declared
+  3. can't be reassigned
+  
+**Q14:**
+
+
 
 
 
