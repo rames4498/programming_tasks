@@ -69,7 +69,7 @@ d = {True: "guvi", 1: "Good night"}
 
 print(d)
  ```
-#Self Explanatory JAVASCRIPT concepts
+# Self Explanatory JAVASCRIPT concepts
 
 *You can try online javascript editor here
 [js.do](https://js.do/).*
@@ -102,11 +102,11 @@ declaration = 'This is an initialization'
 ```
 In contract to variable declaration, variable initialization is when you first assign a value to a variable.we’re initializing the declaration variable by assigning it to a string(here).
 
-**Q2 :**
+**Q3 :**
 **What is scope ?**
 Scope defines where variables and functions are accessible inside of your program. There are two kinds of scope - global scope, and function scope.
 
-**Q2 :**
+**Q4 :**
 **What is local scope and global scope ?**
 
 All variables exist within a scope that determines the lifetime of the variables and which part of the code can access them.
@@ -130,7 +130,7 @@ function say() {
 }
 console.log(message); // ReferenceError
 ```
-**Q4 :**
+**Q5 :**
 **What is Variable shadowing ?**
 ```javascript
 // global variable
@@ -201,7 +201,7 @@ function say() {
 say(); // Hi
 console.log(message); // Hi
 ```
-**Q7 :**
+**Q8 :**
 **What is Hoisting?**
 
 When executing JavaScript code, the JavaScript engine goes through two phases:
@@ -227,7 +227,7 @@ console.log(message); // undefined
 ```
 The JavaScript engine moves the declaration of the message variable to the top, so the former code snippet  is equivalent to the latter.
 
-**Q10 :**
+**Q9 :**
 **How does the javascript engine intreprets the following code ?**
 ```javascript
 function discountPrices (prices, discount) {
@@ -277,7 +277,7 @@ which means we can access those varibles wherever we want under function (here d
 
 It is not the same for *let*
 
-**Q12:**
+**Q10:**
 **What is the difference between var and let ?**
 
 First, let’s compare var and let. The main difference between var and let is that instead of being function scoped, let is block scoped. 
@@ -329,7 +329,7 @@ discountPrices([100, 200, 300], .5) // ❌ ReferenceError: i is not defined
  
  So trying to access i (or discountedPrice or finalPrice) outside of the “block” they were declared in is going to give us a reference error as we just barely saw.
 
-**Q12:**
+**Q11:**
 **What happens when you try to access a variable declared with let before it’s declared?**
 
 ```javascript
