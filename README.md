@@ -69,6 +69,41 @@ d = {True: "guvi", 1: "Good night"}
 
 print(d)
  ```
+##JAVASCRIPT
+*You can try online javascript editor here
+[js.do](https://js.do/).*
+
+**Introduction :**          
+JavaScript is a programming language initially designed to interact with elements of web pages.
+
+JavaScript allows you to add interactivity to a web page
+It is often used with HTML and CSS to enhance the functionality of a web page such as validating forms, creating interactive maps, and displaying animated charts.
+
+**Set - 0000**
+
+**Q1 :**
+**What is variable declaration ?**
+```javascript
+var declaration
+
+console.log(declaration) // undefined
+```
+variables are initialized with the value of undefined when they are created. What that means is if we try to log the declaration variable, we’ll get undefined.
+
+**Q2 :**
+**What is variable intialization ?**
+```javascript
+var declaration
+
+console.log(declaration) // undefined
+
+declaration = 'This is an initialization'
+```
+In contract to variable declaration, variable initialization is when you first assign a value to a variable.we’re initializing the declaration variable by assigning it to a string(here).
+
+**Q2 :**
+**What is scope ?**
+
 
  
  
