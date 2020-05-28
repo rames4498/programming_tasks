@@ -104,6 +104,7 @@ In contract to variable declaration, variable initialization is when you first a
 
 **Q3 :**
 **What is scope ?**
+
 Scope defines where variables and functions are accessible inside of your program. There are two kinds of scope - global scope, and function scope.
 
 **Q4 :**
