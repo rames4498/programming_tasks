@@ -408,6 +408,153 @@ person = {} // ❌ Assignment to constant variable.
   3. can't be reassigned
   
 **Q14:**
+**What is the output of following Javascript code ?**
+```javascript
+var a = 'cpp';
+var b = 'buzz';
+var c = a/b;
+document.write(c);
+```
+**Q15:**
+**Find output of below code ?**
+```javascript
+var a = '10';
+var b = a = 20;
+document.write(a+b);
+```
+**Q16:**
+**What is divide by 0 in Javascript ?**
+```javascript
+var a = 10;
+var b = 0;
+document.write(a/b);
+```
+**Q17:**
+**What is default value of any variable in Javascript ?**
+```javascript
+var a;
+document.write(a);
+```
+**Q18:**
+**How ++ works in Javascript? Find output of below Javascript code.**
+```javascript
+var a = 10;
+document.write(a++);
+document.write(a);
+```
+**Q19:**
+**Find output of below Javascript code**
+```javascript
+var a = 10;
+document.write(a=20);
+```
+**Q20:**
+**Find output of below Javascript addition code**
+```javascript
+document.write("2 plus 2 is " + 2 + 2);
+```
+**Q21:**
+**Find output of below Javascript code**
+```javascript
+<script>
+document.write(2+2 + " = 2 plus 2");
+</script>
+```
+**Q22:**
+**Find output of below Javascript code**
+```javascript
+console.log(0.1 + 0.2);
+console.log(0.1 + 0.2 == 0.3);
+```
+**Q23:**
+**What would the following lines of code output to the console ?**
+```javascript
+console.log(1 +  "2" + "2");
+console.log(1 +  +"2" + "2");
+console.log(1 +  -"1" + "2");
+console.log(+"1" +  "1" + "2");
+console.log( "A" - "B" + "2");
+console.log( "A" - "B" + 2);
+```
+**Q24:**
+**What would the following lines of code output to the console ?**
+```javascript
+console.log("0 || 1 = "+(0 || 1));
+console.log("1 || 2 = "+(1 || 2));
+console.log("0 && 1 = "+(0 && 1));
+console.log("1 && 2 = "+(1 && 2));
+```
+**Q25:**
+**What will be the output when the following code is executed? **
+```javascript
+console.log(false == '0')
+console.log(false === '0')
+```
+**Q26:**
+**What will be the output of this code ?**
+```javascript
+var x = 21;
+var girl = function () {
+    console.log(x);
+    var x = 20;
+};
+girl ();
+```
+**Q27:**
+**What do the following lines output, and why ?**
+```javascript
+console.log(1 < 2 < 3);
+console.log(3 > 2 > 1); 
+```
+**Q28:**
+**Find output of below Javascript code.**
+```javascript
+var a = 1;
+document.write(a--);
+document.write(a);
+```
+**Q29:**
+**find the output of below code**
+```javascript
+<script>
+var a = 10;
+if(a == a++)
+document.write(a);
+```
+**Q30:**
+**Find output of below Javascript code**
+```javascript
+let counter = 30;
+if (counter === 30) {
+  let counter = 31;
+  console.log(counter); // 31
+}
+console.log(counter);
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
