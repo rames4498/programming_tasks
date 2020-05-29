@@ -1,5 +1,4 @@
-
-# Self Explanatory JAVASCRIPT concepts
+# Self_Explanatory Javascript
 
 *You can try online javascript editor here
 [js.do](https://js.do/).*
@@ -32,12 +31,12 @@ declaration = 'This is an initialization'
 ```
 In contract to variable declaration, variable initialization is when you first assign a value to a variable.we’re initializing the declaration variable by assigning it to a string(here).
 
-**Q3 :**
+**Q2 :**
 **What is scope ?**
 
 Scope defines where variables and functions are accessible inside of your program. There are two kinds of scope - global scope, and function scope.
 
-**Q4 :**
+**Q2 :**
 **What is local scope and global scope ?**
 
 All variables exist within a scope that determines the lifetime of the variables and which part of the code can access them.
@@ -61,7 +60,7 @@ function say() {
 }
 console.log(message); // ReferenceError
 ```
-**Q5 :**
+**Q4 :**
 **What is Variable shadowing ?**
 ```javascript
 // global variable
@@ -132,7 +131,7 @@ function say() {
 say(); // Hi
 console.log(message); // Hi
 ```
-**Q8 :**
+**Q7 :**
 **What is Hoisting?**
 
 When executing JavaScript code, the JavaScript engine goes through two phases:
@@ -158,7 +157,7 @@ console.log(message); // undefined
 ```
 The JavaScript engine moves the declaration of the message variable to the top, so the former code snippet  is equivalent to the latter.
 
-**Q9 :**
+**Q10 :**
 **How does the javascript engine intreprets the following code ?**
 ```javascript
 function discountPrices (prices, discount) {
@@ -208,7 +207,7 @@ which means we can access those varibles wherever we want under function (here d
 
 It is not the same for *let*
 
-**Q10:**
+**Q12:**
 **What is the difference between var and let ?**
 
 First, let’s compare var and let. The main difference between var and let is that instead of being function scoped, let is block scoped. 
@@ -260,7 +259,7 @@ discountPrices([100, 200, 300], .5) // ❌ ReferenceError: i is not defined
  
  So trying to access i (or discountedPrice or finalPrice) outside of the “block” they were declared in is going to give us a reference error as we just barely saw.
 
-**Q11:**
+**Q12:**
 **What happens when you try to access a variable declared with let before it’s declared?**
 
 ```javascript
@@ -294,7 +293,7 @@ Instead of getting undefined (like with those variables declared with var), you�
   1. block scoped
   2. ReferenceError when accessing a variable before it's declared
   
- **Q12:**
+**Q12:**
 **What is the difference between var and let ?**
 
 *const* is almost exactly the same as let. However, the only difference is that once you’ve assigned a value to a variable using const, you can’t reassign it to a new value.
@@ -336,12 +335,12 @@ person = {} // ❌ Assignment to constant variable.
   1. block scoped
   2. ReferenceError when accessing a variable before it's declared
   3. can't be reassigned
-  
+
 **Q14:**
 **What is the output of following Javascript code ?**
 ```javascript
-var a = 'cpp';
-var b = 'buzz';
+var a = 'ramesh';
+var b = 'guvi';
 var c = a/b;
 document.write(c);
 ```
@@ -415,7 +414,7 @@ console.log("0 && 1 = "+(0 && 1));
 console.log("1 && 2 = "+(1 && 2));
 ```
 **Q25:**
-**What will be the output when the following code is executed? **
+**What will be the output when the following code is executed ?**
 ```javascript
 console.log(false == '0')
 console.log(false === '0')
@@ -461,6 +460,177 @@ if (counter === 30) {
 }
 console.log(counter);
 ```
+**Q31:**
+**Find the output of the below Javascript code**
+```javascript
+function userDetails(username) {
+   if(username) {
+     console.log(salary); 
+     console.log(age); 
+     let age = 30;
+     var salary = 10000;
+   }
+   console.log(salary); 
+   console.log(age); 
+}
+```
+**Q32:**
+**Find the output of the below Javascript code**
+```javascript
+function somemethod() {
+  console.log(counter1);
+  console.log(counter2);
+  var counter1 = 1;
+  let counter2 = 2;
+}
+```
+**Q33:**
+**How the intrepreter intreprets the following Javascript code ?**
+```javascript
+console.log(message); //output : undefined
+var message = 'The variable Has been hoisted';
+```
+**Q34:**
+**Find the output of the below Javascript code**
+```javascript
+function sayHi() {
+  console.log(name);
+  console.log(age);
+  var name = 'Ramesh';
+  let age = 24;
+}
+sayHi();
+```
+**Q35:**
+**Find the output of the below Javascript code**
+```javascript
++true;
+!'guvi';
+```
+**Q36:**
+**Find the output of the below Javascript code**
+```javascript
+let c = { greeting: 'Hey!' };
+let d;
+
+d = c;
+c.greeting = 'Hello';
+console.log(d.greeting);
+```
+**Q37:**
+**Find the output of the below Javascript code**
+```javascript
+let a = 3;
+let b = new Number(3);
+let c = 3;
+
+console.log(a == b);
+console.log(a === b);
+console.log(b === c);
+```
+**Q38:**
+**Find the output of below Javascript code**
+```javascript
+let greeting;
+greetign = {}; // Typo!
+console.log(greetign);
+```
+**Q39:**
+**Find the output of below Javascript code**
+```javascript
+function sum(a, b) {
+  return a + b;
+}
+
+sum(1, '2');
+```
+**Q40:**
+**Find the output of below Javascript code**
+```javascript
+let number = 0;
+console.log(number++);
+console.log(++number);
+console.log(number);
+```
+**Q41:**
+**Find the output of the below Javascript code**
+```javascript
+function getAge() {
+  'use strict';
+  age = 21;
+  console.log(age);
+}
+
+getAge();
+```
+**Q42:**
+**Find the output of the below Javascript code**
+```javascript
+var num = 8;
+var num = 10;
+
+console.log(num);
+```
+**Q43:**
+**Find the output**
+```javascript
+!!null;
+!!'';
+!!1;
+```
+**Q44:**
+**Find the output**
+```javascript
+console.log(3 + 4 + '5');
+```
+**Q45:**
+**Find the output**
+```javascript
+const name = 'Ramesh';
+age = 24;
+
+console.log(delete name);
+console.log(delete age);
+```
+**Q46:**
+**Find the output**
+```javascript
+const name = 'Ramesh';
+
+console.log(name());
+```
+**Q47:**
+**Find the output**
+```javascript
+const one = false || {} || null;
+const two = null || false || '';
+const three = [] || 0 || true;
+
+console.log(one, two, three);
+```
+**Q48:**
+**Find the output**
+```javascript
+const name = 'Sherlock Holmes';
+
+console.log(!typeof name === 'object');
+console.log(!typeof name === 'string');
+```
+**Q49:**
+**What will be the output of the following code ?**
+```javascript
+var bar = true;
+console.log(bar + 0);   
+console.log(bar + "xyz");  
+console.log(bar + true);  
+console.log(bar + false);
+```
+**Q50:**
+**What will be the output of the following code ?**
+```javascript
+var z = 1, y = z = typeof y;
+console.log(y);
+```
 
 
 
@@ -501,15 +671,5 @@ console.log(counter);
 
 
 
-
-
-
-
-
-
-
-
- 
- 
 
 
