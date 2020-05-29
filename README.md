@@ -1,7 +1,7 @@
-# Self_Explanatory Javascript
+# Javascript
 
 *You can try online javascript editor here
-[js.do](https://js.do/).*
+[guvi.io/ide](https://www.guvi.io/ide).*
 
 **Introduction :**          
 JavaScript is a programming language initially designed to interact with elements of web pages.
@@ -631,6 +631,190 @@ console.log(bar + false);
 var z = 1, y = z = typeof y;
 console.log(y);
 ```
+**Q51:**
+**What will be the output of the following code ?**
+```javascript
+	if ( true ) {
+	  var x = 20;
+	}
+	
+	function set() {
+	  var x = 50;
+	  
+	  console.log(x); 
+	  var y = 30;
+	}
+	
+	// Call the set() function
+	set();
+	
+	console.log(x); 
+	console.log(y); 
+```
+**Q52:**
+**What will be the output of the following code ?**
+```javascript
+if  (true) {
+   Var x = 20;
+}
+function set() {
+	  var x = 50;
+	  var y = 30;
+	}
+	
+	// Call the set() function
+set();
+
+console.log(x);  
+console.log(y);  
+```
+**Q53:**
+**What will be the output of the following code ?**
+```javascript
+	var x = 20;
+	var x = 50;
+
+	console.log(x);  // what’s the result 
+```
+**Q54:**
+**What will be the output of the following code ?**
+```javascript
+var color = 'blue';
+
+// Declaring the same variable with let keyword will not work
+let color = 'red';  // what’s the expected output ??
+
+```
+**Q55:**
+**What will be the output of the following code ?**
+```javascript
+	
+const myConstVariable = 2
+let myLetVariable = 3;
+	
+console.log(myConstVariable); // 2
+	
+myLetVariable = 4;  // ok
+	
+myConstVariable = 5;  
+// What do you get as output ? 
+
+```
+**Q56:**
+**What will be the output of the following code ?**
+```javascript
+let numOfApples = 5
+
+numOfApples = 100;
+
+console.log(numOfApples); 
+// what does it prints ?? 
+```
+**Q57:**
+**What will be the output of the following code ?**
+```javascript
+let numOfApples = 50;
+
+let numOfApples = 100;
+	
+console.log(numOfApples); 
+
+// what does it prints ?? (if error , what kind of error is it ??)
+
+```
+**Q58:**
+**What will be the output of the following code ?**
+```javascript
+ let numOfApples = 50;
+{ let numOfApples = 100;
+	
+console.log(numOfApples);}
+	
+// What does it prints ??
+
+```
+**Q59:**
+**What will be the output of the following code ?**
+```javascript
+let b = 3; 
+function foo() {
+  var a = 5;
+  
+  while (a < 6) {
+    b = a + 3; //notice that b is available here
+    console.log(b); // what does it prints
+    a += 1;
+  }
+  console.log(a); // what does it prints ??
+  console.log(b); // what does it prints ??
+}
+foo();
+```
+**Q60:**
+**What will be the output of the following code ?**
+```javascript
+function nodeSimplified(){
+  const MY_VARIABLE =10;
+  console.log(MY_VARIABLE); 
+  MY_VARIABLE =20;             
+  console.log(MY_VARIABLE); 
+}
+
+nodeSimplified();
+// what does it prints ??
+
+```
+**Q61:**
+**What will be the output of the following code ?**
+```javascript
+let num1:number = 1; 
+    
+function letDeclaration() { 
+    let num2:number = 2; 
+
+    if (num2 > num1) { 
+        let num3: number = 3;
+        num3++; 
+    } 
+
+    while(num1 < num2) { 
+        let num4: number = 4;
+        num1++;
+    }
+    //what does the following print ?? 
+    console.log(num1); 
+    console.log(num2); 
+    console.log(num3);    
+    console.log(num4);
+}
+
+letDeclaration();
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
