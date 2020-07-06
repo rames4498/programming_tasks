@@ -793,15 +793,15 @@ letDeclaration();
 **Q62:**
 **solve the following in codekata question (javascript)?**
 **Basics**
-***
-Given numbers A,B find A^B.
+**
+Given numbers A,B find A^B. \n
 Input Size : 1 <= A <= 5 <= B <= 50
 Sample Testcase :
 INPUT
 3 4
 OUTPUT
 81
-***
+**
 ```javascript
 const readline = require('readline');
 const inp = readline.createInterface({
