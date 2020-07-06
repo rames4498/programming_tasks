@@ -793,7 +793,7 @@ letDeclaration();
 **Q62:**
 **solve the following in codekata question (javascript)?**
 **Basics**
-```javascript
+***
 Given numbers A,B find A^B.
 Input Size : 1 <= A <= 5 <= B <= 50
 Sample Testcase :
@@ -801,6 +801,24 @@ INPUT
 3 4
 OUTPUT
 81
+***
+```javascript
+const readline = require('readline');
+const inp = readline.createInterface({
+  input: process.stdin
+});
+const userInput = [];
+inp.on("line", (data) => {
+ userInput.push(data);
+});
+inp.on("close", () => {
+var data = userInput[0].split(" ");
+var a = parseInt(data[0]);
+var b = parseInt(data[1]);
+ 
+console.log(a**b);
+});
+
 ```
 
 
